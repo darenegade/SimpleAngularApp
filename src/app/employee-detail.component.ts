@@ -11,7 +11,7 @@ import {Employee, EmployeeService} from './employee.service';
 @Component({
   selector: 'employee-detail',
   templateUrl: './employee-detail.component.html',
-  styleUrls: [ './employee-detail.component.css' ]
+  styleUrls: [ './employee-detail.component.css' ],
 })
 export class EmployeeDetailComponent implements OnInit{
 

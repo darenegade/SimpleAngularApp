@@ -5,8 +5,15 @@
   </h1>
 </div>
 
-<nav>
-  <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
-  <a routerLink="/employees" routerLinkActive="active">Employees</a>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li routerLinkActive="active"><a routerLink="/dashboard" >Dashboard</a></li>
+        <li routerLinkActive="active"><a routerLink="/employees">Employees</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
 <router-outlet></router-outlet>
