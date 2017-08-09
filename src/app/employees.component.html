@@ -1,0 +1,5 @@
+<ul class="employees">
+  <li *ngFor="let emp of employees; let i = index" [attr.data-index]="i" (click)="onSelect(emp)">
+    <span class="badge">{{i}}</span> {{emp.name}}
+  </li>
+</ul>
